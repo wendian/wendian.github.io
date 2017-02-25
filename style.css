@@ -1,0 +1,28 @@
+body {
+    background-color: #eef7dd;
+}
+
+.pinkish {
+  background-color: #ffd0d0;
+}
+
+.blueish {
+  background-color: #cfd0ff;
+}
+
+a:link {
+    color: #b167a5;
+}
+
+a:visited {
+    color: #aaaaaa;
+}
+
+a:hover {
+    color: #000;
+}
+
+.header1 {
+  color: #8080f0;
+}
+
