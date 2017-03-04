@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<link rel="icon" type="image/ico" href="favicon.ico"></link>
-
+<link rel="icon" type="image/ico" href="favicon.ico">
 <meta name="viewport" content="width = device-width, initial-scale = 1">
 <title>Wendi An</title>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet">
@@ -12,31 +11,34 @@
 </head>
 <body>
 
+<nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse fixed-top">
 <div class="container">
-<nav class="navbar navbar-default blueish">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-
-        <span class="sr-only"></span>
-
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#burger-bar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
-      <a class="pull-left" href="#"></a>
+      <a class="navbar-brand" href="#">Wendi An</a>
     </div>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="burger-bar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> About</a></li>
-        <li><a href="https://drive.google.com/open?id=0Bwhsk4Ombuicd3Q5dWduY1BSMDQ"><span class="glyphicon glyphicon-th-list"></span> Resume</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-music"></span> Reviews</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-file"></span> Origami</a></li>
+        <li class="active">
+          <a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a>
+        </li>
+        <li>
+          <a href="https://drive.google.com/open?id=0Bwhsk4Ombuicd3Q5dWduY1BSMDQ"><span class="glyphicon glyphicon-th-list"></span></span><span class="slide-out-text">Resume</span></a>
+        </li>
+        <li>
+          <a href="reviews/reviews.html"><span class="glyphicon glyphicon-music"></span><span class="slide-out-text">Reviews</span></a>
+        </li>
+        <li>
+          <a href="origami/origami.html"><span class="glyphicon glyphicon-file"></span><span class="slide-out-text">Origami</span></a>
+        </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-heart"></span> Links<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-heart"></span><span class="slide-out-text">Links</span><span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="https://theneedledrop.com">The Needle Drop</a></li>
             <li><a href="https://scaruffi.com">Piero Scaruffi</a></li>
@@ -44,7 +46,7 @@
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-phone-alt"></span> Contact<span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-phone-alt"></span><span class="slide-out-text">Contact</span><span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="mailto:anxxx102@umn.edu"><span class="glyphicon glyphicon-envelope"></span> Email</a></li>
             <li><a href="https://wendian.github.io"><span class="glyphicon glyphicon-object-align-top"></span> Website</a></li>
@@ -53,80 +55,114 @@
         </li>
       </ul>
     </div>
-
   </div>
+</div>
 </nav>
-</div>
-<br>
 
 <div class="container">
-  <div class="page-header">
-  <h1 class="header1">Wendi An</h1>
-  </div>
-</div>
-
-<div class="container">
-<div class="row">
+  <div class="row">
   <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-    
-    <div class="thumbnail pinkish">
+    <a href="https://github.com/wendian" class="thumbnail">
       <div class="caption">
-        <a href="https://github.com/wendian">
         <h3>Github</h3>
         <p>Click here for my Github portfolio!</p>
-        </a>
       </div>
+    </a>
+    <a href="https://drive.google.com/open?id=0Bwhsk4Ombuicd3Q5dWduY1BSMDQ" class="thumbnail">
       <div class="caption">
-        <a href="https://drive.google.com/open?id=0Bwhsk4Ombuicd3Q5dWduY1BSMDQ">
         <h3>Resume</h3>
         <p>Click here for my resume!</p>
-        </a>
       </div>
+    </a>
+    <a href="coursework/coursework.html" class="thumbnail">
       <div class="caption">
-        <a href="#">
         <h3>Coursework</h3>
         <p>Click here to see more about my past coursework!</p>
-        </a>
       </div>
-    </div>
+      </a>
   </div>
   <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-    <div class="thumbnail pinkish">
-      <img src="https://upload.wikimedia.org/wikipedia/en/8/8e/Can_-_Tago_Mago.jpg" alt="tagomago">
+    <a href="reviews/reviews.html" class="thumbnail thumbnail-pic">
+      <table class="img-thumbnail">
+        <tr>
+          <td><img src="https://upload.wikimedia.org/wikipedia/en/8/8e/Can_-_Tago_Mago.jpg" alt="tagomago" class=""></td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/en/b/bf/Mewithoutyou_brothersister_cover.jpg" alt="brother"></td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/en/2/2f/JonHopkinsImmunityAlbumCover.jpg" alt="immunity"></td>
+        </tr>
+        <tr>
+          <td><img src="https://upload.wikimedia.org/wikipedia/en/4/49/Kimono_My_House_-_Sparks.jpg" alt="kimono" class=""></td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/en/0/01/Sufjan_Stevens_-_Illinois.jpg" alt="illinois" class=""></td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/en/2/2d/TalkingHeadsRemaininLight.jpg" alt="remain" class=""></td>
+        </tr>
+        <tr>
+          <td><img src="https://upload.wikimedia.org/wikipedia/en/7/7e/TheShapeOfPunkToCome.jpeg" alt="shape"></td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/en/c/c8/Love_-_forever_changes.jpg" alt="changes" class=""></td>
+          <td><img src="https://upload.wikimedia.org/wikipedia/en/3/30/Trout_Mask_Replica.png" alt="trout"></td>
+        </tr>
+      </table>
       <div class="caption">
-        <a href="#">
         <h3>Reviews &amp; Ratings</h3>
         <p>My music reviews, they range from one-liners to five-page snooze-fests!</p>
-        </a>
+        <br>
       </div>
-    </div>
+    </a>
   </div>
   <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-    <div class="thumbnail pinkish">
-      <img src="images/ori_ball.jpg" alt="origamiball">
+    <a href="origami/origami.html" class="thumbnail thumbnail-pic">
+      <div id="origami_carousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="thumbnails/or_0.jpg" alt="0" class="img-thumbnail">
+          </div>
+          <div class="item">
+            <img src="thumbnails/or_1.jpg" alt="1" class="img-thumbnail">
+          </div>
+          <div class="item">
+            <img src="thumbnails/or_2.jpg" alt="2" class="img-thumbnail">
+          </div>
+          <div class="item">
+            <img src="thumbnails/or_3.jpg" alt="3" class="img-thumbnail">
+          </div>
+          <div class="item">
+            <img src="thumbnails/or_4.jpg" alt="4" class="img-thumbnail">
+          </div>
+          <div class="item">
+            <img src="thumbnails/or_5.jpg" alt="5" class="img-thumbnail">
+          </div>
+          <div class="item">
+            <img src="thumbnails/or_6.jpg" alt="6" class="img-thumbnail">
+          </div>
+          <div class="item">
+            <img src="thumbnails/or_7.jpg" alt="7" class="img-thumbnail">
+          </div>
+          <div class="item">
+            <img src="thumbnails/or_8.jpg" alt="8" class="img-thumbnail">
+          </div>
+        </div>
+      </div>
       <div class="caption">
-        <a href="#">
         <h3>Origami</h3>
         <p>Pictures of origami that I've folded, mostly modular, but you'll see some roses and cranes</p>
-        </a>
       </div>
-    </div>
+    </a>
   </div>
   <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-  <div class="thumbnail pinkish">
-    <img src="https://upload.wikimedia.org/wikipedia/en/4/4b/Crimeandpunishmentcover.png" alt="crime">
+  <a href="books/books.html" class="thumbnail thumbnail-pic">
+    <div class="crop">
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/4b/Crimeandpunishmentcover.png" alt="crime" class="img-thumbnail">
+    </div>
     <div class="caption">
-      <a href="#">
       <h3>Books</h3>
       <p>Reading lists and blurbs</p>
-      </a>
+      <br>
+      <br>
     </div>
-  </div>
-</div>
-</div>
+  </a>
+</div></div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 </body>
 </html>
